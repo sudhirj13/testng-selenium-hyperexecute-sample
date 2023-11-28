@@ -1,11 +1,11 @@
-name: Hyperexecute-Playwright
+name: Hyperexecute-TestNG-Sample
 on:
   schedule:
     - cron: '30 5,17 * * *'
   workflow_dispatch:
   
 jobs:
-  HyperExecute-Playwright:
+  Hyperexecute-TestNG-Sample:
     runs-on: ubuntu-latest
     timeout-minutes: 15
     strategy:
